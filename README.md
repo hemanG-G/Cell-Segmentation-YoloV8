@@ -2,6 +2,7 @@
 
 ## Workflows
 
+## order of updating code
 1. constants
 2. entity
 3. components
