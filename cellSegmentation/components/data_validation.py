@@ -9,6 +9,7 @@ from cellSegmentation.entity.artifacts_entity import (DataIngestionArtifact,
 
 
 
+## validate proper data ingestion before starting model training
 
 
 class DataValidation:
@@ -26,7 +27,7 @@ class DataValidation:
         
 
 
-    
+    ## ensure all files exist
     def validate_all_files_exist(self)-> bool:
         try:
             validation_status = None

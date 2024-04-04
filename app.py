@@ -7,7 +7,7 @@ from cellSegmentation.constant.application import APP_HOST, APP_PORT
 
 
 
-
+## testing the pipeline
 obj = TrainPipeline()
 obj.run_pipeline()
 

@@ -1,5 +1,7 @@
 from dataclasses import dataclass
 
+## from flowchart
+
 @dataclass
 class DataIngestionArtifact:
     data_zip_file_path:str

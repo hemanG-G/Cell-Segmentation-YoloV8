@@ -92,7 +92,7 @@ class TrainPipeline:
         
 
     
-
+    #For testing the pipeline
     def run_pipeline(self) -> None:
         try:
             data_ingestion_artifact = self.start_data_ingestion()

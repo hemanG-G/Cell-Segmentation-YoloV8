@@ -4,7 +4,7 @@ from datetime import datetime
 from cellSegmentation.constant.training_pipeline import *
 
 
-
+## This is designed as per flow charts
 ## dataclass is used to avoid usage of self keyword
 
 @dataclass
