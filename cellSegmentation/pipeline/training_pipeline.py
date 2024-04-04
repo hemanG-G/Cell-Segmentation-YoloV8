@@ -5,11 +5,13 @@ from cellSegmentation.components.data_ingestion import DataIngestion
 from cellSegmentation.components.data_validation import DataValidation
 from cellSegmentation.components.model_trainer import ModelTrainer
 
-
+## configs are present in entity ; they are parameters and values for each stage
 from cellSegmentation.entity.config_entity import (DataIngestionConfig,
                                                  DataValidationConfig,
                                                  ModelTrainerConfig)
 
+
+## artifacts is the stuff that consists of  return objects for each stage 
 from cellSegmentation.entity.artifacts_entity import (DataIngestionArtifact,
                                                     DataValidationArtifact,
                                                     ModelTrainerArtifact)

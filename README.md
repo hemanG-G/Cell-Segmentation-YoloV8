@@ -1,8 +1,6 @@
 # Cell-Segmentation-Using-Yolo-v8
 
-## Workflows
-
-## order of updating code
+## Workflows (order of adding/updating code)
 1. constants
 2. entity
 3. components
