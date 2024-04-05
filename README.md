@@ -42,3 +42,27 @@ Now,
 ```bash
 open up you local host and port
 ```
+
+
+
+# AZURE-CICD-Deployment-with-Github-Actions
+
+## Save pass:
+
+SuB3k4sDc1QasXTbHwgc80p8xtngxa8Deg/07iFc0u+ACRA71rar
+
+## Run from terminal:
+
+docker build -t cellsegmentationyolov8.azurecr.io/cell:latest .
+
+docker login cellsegmentationyolov8.azurecr.io
+
+docker push cellsegmentationyolov8.azurecr.io/cell:latest
+
+
+## Deployment Steps:
+
+1. Build the Docker image of the Source Code
+2. Push the Docker image to Container Registry
+3. Launch the Web App Server in Azure 
+4. Pull the Docker image from the container registry to Web App server and run 
