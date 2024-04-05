@@ -49,7 +49,6 @@ open up you local host and port
 
 ## Save pass:
 
-SuB3k4sDc1QasXTbHwgc80p8xtngxa8Deg/07iFc0u+ACRA71rar
 
 ## Run from terminal:
 
